@@ -22,3 +22,6 @@ Route::get('/', function () {
 Route::get('/agur', function () {
     return(view('agur'));
 });
+Route::post('/formpost', function(){
+    return(view('formpost'));
+});
