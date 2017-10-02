@@ -22,6 +22,10 @@ Route::get('/', function () {
 Route::get('/agur', function () {
     return(view('agur'));
 });
-Route::post('/formpost', function(){
-    return(view('formpost'));
-});
+
+Route::post('/formpost', 'formulario_controlador@formulario_datos'
+    //return(view('formpost'));
+);
+/*Route::post('/formpost', function() {
+    return (view('formpost'));
+});*/
