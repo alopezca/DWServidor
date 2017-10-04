@@ -15,7 +15,7 @@
  * Route::get('/', function () {
     return view('welcome');
 });
-*/
+
 Route::get('/', function () {
     return(view('bienvenido'));
 });
@@ -26,6 +26,16 @@ Route::get('/agur', function () {
 Route::post('/formpost', 'formulario_controlador@formulario_datos'
     //return(view('formpost'));
 );
-/*Route::post('/formpost', function() {
-    return (view('formpost'));
-});*/
+/**/
+
+Route::get('/', function()
+{
+    return View::make('pages.formulario');
+});
+Route::post('/formpost', 'formulario_controlador@formulario_datos'
+//return(view('formpost'));
+);
+Route::post('/formpost', function() {
+    return (view('pages.formpost'));
+});
+?>
