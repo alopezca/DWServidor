@@ -6,7 +6,8 @@
  * Time: 9:41
  */
 ?>
-
-<footer class="footer">© Copyright 2017 - Aitor López</footer>
-
-
+<footer class="footer">
+<div class="container text-center ">
+    <span class="text-muted">© Copyright 2017 - Aitor López</span>
+</div>
+</footer>

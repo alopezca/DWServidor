@@ -5,16 +5,15 @@
 </head>
 <header>
     @include('includes.header')
+    @include('layouts.entrar')
+    @include('layouts.registrar')
 </header>
 <body>
-<div class="container">
+<div class="container-fluid">
     <div id="main">
-        <h1>hola caracola</h1>
-        @yield('pages.formulario')
+        @yield('home')
     </div>
-
-    @include('includes.footer')
-
 </div>
 </body>
+@include('includes.footer')
 </html>

@@ -21,8 +21,9 @@
     ?>
     <strong>Tus datos han sido guardados en la BBDD</strong>
 
-    @include('includes.footer')
+
 
 </div>
 </body>
+@include('includes.footer')
 </html>
