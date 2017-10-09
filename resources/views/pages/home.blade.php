@@ -9,7 +9,7 @@
 @extends('layouts.default')
 @section('home')
     @include('layouts.carousell')
-<div class="container container-fluid">
+<div class="container ">
 
     <div class="container">
         <div class="row">
